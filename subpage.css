@@ -1,0 +1,27 @@
+header{
+    background-position: center top;    
+    padding-bottom: 0;
+    background-color: transparent;
+
+}
+
+ul li{
+    cursor: pointer;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+    margin-bottom: 10em;
+}
+
+.grid img{
+    width: 100%;
+}
+
+.grid2{
+    grid-template-columns: 1fr 2fr;
+    gap: 2em;
+    margin-bottom: 10em;
+}
